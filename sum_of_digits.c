@@ -1,16 +1,16 @@
-// SUM OF DIGITS IN A NUMBER 
+#include <stdio.h>
 
-#include<stdio.h>
-
-int main()
-{
-    int a,sum=0;
-    scanf("%d",&a);
-    while(a!=0)
-    {
-        int rem=a%10;
-        sum+=rem;
-        a=a/10;
+int sumOfDigits(int n) {
+    int sum = 0;
+    while (n > 0) {
+        sum += n % 10;
+        n /= 10;
     }
-    printf("\nSUM OF DIGITS IS %d",sum);
+    return sum;
+}
+
+int main() {
+    int n = 1234;
+    printf("Sum of digits: %d\n", sumOfDigits(n));
+    return 0;
 }
