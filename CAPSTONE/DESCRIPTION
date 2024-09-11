@@ -1,4 +1,0 @@
-The project "Count of Smaller Numbers After Self" focuses on solving an algorithmic problem using Java, where for each element in an array, the task is to count how many numbers to its right are smaller. 
-Two approaches are explored: a basic brute-force method and an optimized solution using Binary Indexed Trees (BIT) and Merge Sort. 
-The optimized approach achieves a time complexity of O(n log n), making it suitable for handling large datasets efficiently. 
-The project highlights the importance of choosing the right data structures to improve performance in computational tasks.
